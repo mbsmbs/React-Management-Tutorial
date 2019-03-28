@@ -25,26 +25,26 @@ const customers = [
   {
     'id' : 1,
     'image' : 'https://placeimg.com/64/64/1',
-    'name' : '홀길동',
+    'name' : 'Peter',
     'birthday' : '961222',
-    'gender' : '남자',
-    'job' : '대학생'
+    'gender' : 'male',
+    'job' : 'Student'
   },
   {
     'id' : 2,
     'image' : 'https://placeimg.com/64/64/2',
-    'name' : '이순신',
+    'name' : 'James',
     'birthday' : '001122',
-    'gender' : '남자',
-    'job' : '대학생'
+    'gender' : 'male',
+    'job' : 'student'
   },
   {
     'id' : 3,
     'image' : 'https://placeimg.com/64/64/3',
-    'name' : '민병석',
+    'name' : 'Jack',
     'birthday' : '900115',
-    'gender' : '남자',
-    'job' : '대학생'
+    'gender' : 'male',
+    'job' : 'Programmer'
   }
 ]
 
@@ -56,12 +56,12 @@ class App extends Component {
         <Table className = {classes.table}>
           <TableHead>
             <TableRow>
-              <TableCell>번호</TableCell>
-              <TableCell>이미지</TableCell>
-              <TableCell>이름</TableCell>
-              <TableCell>생년월일</TableCell>
-              <TableCell>성별</TableCell>
-              <TableCell>직업 </TableCell>
+              <TableCell>No</TableCell>
+              <TableCell>Image</TableCell>
+              <TableCell>Name</TableCell>
+              <TableCell>Birthday</TableCell>
+              <TableCell>Gender</TableCell>
+              <TableCell>Job</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
